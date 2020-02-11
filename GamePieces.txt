@@ -1,0 +1,26 @@
+Emma Ingram and Braedon O'Callaghan
+
+Our game is Dinosaur themed and has 6 pieces.
+
+The first piece is Turtle (T), which implements Drawable. The Turtle doesn't move or interact and when too
+many dinosaurs come out, he gets scared and hides in his shell.
+
+We have 3 moveable pieces: T-Rex (R), Pterodactyl (p), and Stegosaurus (S).
+ - When the player moves to a spot one space away from the T-Rex, the T-Rex kills him. The player can be in the
+   same spot as the T-Rex, though, because if he is standing under the T-Rex, the T-Rex doesn't know where he is.
+ - The Pterodactyl moves away from the player as he comes closer but if the player catches the Pterodactyl or gets
+   within one space of it, he wins a prize.
+ - The Stegosaurus moves randomly about the game board and the player wins a prize if he lands on or gets within
+   one space of the stegosaurus.
+
+Our final 2 pieces are the Velociraptor (V) and the Brachiosaurus (B).
+ - The Velociraptor is a hit if the player gets within one space of him or lands on him.
+ - The Brachiosaurus stays in place and advances the player to the next level when the player lands on top of him.
+
+Summary:
+ - T-Rex : KILL
+ - Pterodactyl : PRIZE
+ - Brachiosaurus : ADVANCE
+ - Velociraptor : HIT
+ - Stegosaurus : PRIZE
+ - Turtle : NONE
